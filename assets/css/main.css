@@ -1,0 +1,61 @@
+.section {
+  padding: 3rem 0;
+}
+
+.min-heigth-450 {
+  min-height: 450px;
+}
+
+#new-message {
+  color: #212529;
+  cursor: pointer;
+}
+
+#user-background,
+#user-message {
+  padding: 10px 15px !important;
+}
+
+#user-message {
+  cursor: pointer;
+}
+
+#user-message:hover {
+  background-color: #eeeeee;
+}
+
+#messages-area img {
+  width: 40px;
+  height: 40px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+}
+
+#messages-area span {
+  font-weight: 700;
+}
+
+#messages-area span:first-child {
+  margin-bottom: 3px;
+}
+
+#messages-area span.small {
+  margin-top: -5px;
+  color: #aaa;
+  font-weight: inherit;
+}
+
+#messages-area span.user, #messages-area span.message {
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+#messages-area span.user {
+  width: 114px;
+  height: 14px;
+}
+
+#messages-area span.message {
+  width: 84px;
+  height: 14px;
+}

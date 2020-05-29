@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Instagram Direct Page Clone</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="box-messages shadow-sm border bg-white">
+                        <div class="row no-gutters">
+                            <div class="col-md-3">
+                                <div class="border-right min-heigth-450">
+                                    <div class="border-bottom text-center p-3 d-flex">
+                                        <div class="justify-content-center d-flex w-100">
+                                            <strong>Mensagens</strong>
+                                        </div>
+                                        <div class="justify-content-end d-flex">
+                                            <a href="#" id="new-message">
+                                                <svg class="bi bi-pencil-square" width="1em" height="1em"
+                                                    viewBox="0 0 16 16" fill="currentColor"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="p-0" id="messages-area">
+                                        <div class="d-flex mb-1" id="user-background">
+                                            <img src="" alt="" class="mr-2">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <span class="user"></span>
+                                                <span class="message"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mb-1" id="user-background">
+                                            <img src="" alt="" class="mr-2">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <span class="user"></span>
+                                                <span class="message"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mb-1" id="user-background">
+                                            <img src="" alt="" class="mr-2">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <span class="user"></span>
+                                                <span class="message"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mb-1" id="user-message">
+                                            <img src="https://image.freepik.com/free-vector/cartoon-monster-face-avatar-halloween-monster_6996-1164.jpg" alt="" class="mr-2">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <span class="mb-0">Guilherme</span>
+                                                <span class="small">Agora</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mb-1" id="user-message">
+                                            <img src="https://image.freepik.com/vetores-gratis/avatar-de-cara-de-monstro-dos-desenhos-animados-monstro-do-dia-das-bruxas_6996-1165.jpg" alt="" class="mr-2">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <span class="mb-0">Estevam</span>
+                                                <span class="small">Agora</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mb-1" id="user-message">
+                                            <img src="https://image.freepik.com/vetores-gratis/avatar-de-cara-de-monstro-dos-desenhos-animados-monstro-do-dia-das-bruxas_6996-1111.jpg" alt="" class="mr-2">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <span class="mb-0">Rafael</span>
+                                                <span class="small">Agora</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="py-3 mb-5 h-100">
+                                    <div class="d-flex justify-content-center align-items-center h-100" id="message-user">
+                                        <div class="flex-column text-center">
+                                            <svg class="bi bi-envelope" width="3em" height="3em" viewBox="0 0 16 16"
+                                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M14 3H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z" />
+                                                <path
+                                                    d="M.05 3.555C.017 3.698 0 3.847 0 4v.697l5.803 3.546L0 11.801V12c0 .306.069.596.192.856l6.57-4.027L8 9.586l1.239-.757 6.57 4.027c.122-.26.191-.55.191-.856v-.2l-5.803-3.557L16 4.697V4c0-.153-.017-.302-.05-.445L8 8.414.05 3.555z" />
+                                            </svg>
+
+                                            <h4 class="mt-4">Suas mensagens</h4>
+                                            <p>Envie fotos e mensagens privadas para um amigo.</p>
+
+                                            <a href="#" class="btn btn-primary btn-sm">Enviar mensagem</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
